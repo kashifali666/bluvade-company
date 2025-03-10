@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/bluvade-company/static/css/main.a696e222.css",
+    "main.js": "/bluvade-company/static/js/main.2a15a6b7.js",
+    "static/js/488.11fb4e83.chunk.js": "/bluvade-company/static/js/488.11fb4e83.chunk.js",
+    "static/media/image.jpg": "/bluvade-company/static/media/image.5aaaabd9ef1233e4f787.jpg",
+    "static/media/bgimage.jpg": "/bluvade-company/static/media/bgimage.5f845c22bc0b12d03371.jpg",
+    "static/media/it&ict.jpg": "/bluvade-company/static/media/it&ict.c5fe85e7a3b085712daf.jpg",
+    "static/media/aboutus.jpg": "/bluvade-company/static/media/aboutus.6e44a32d8b9aff2a44a9.jpg",
+    "static/media/Logo_PNG[1].png": "/bluvade-company/static/media/Logo_PNG[1].777bb59198400785968a.png",
+    "static/media/tech.jpg": "/bluvade-company/static/media/tech.588a31aa18741bcb61c5.jpg",
+    "static/media/generalOrder.jpg": "/bluvade-company/static/media/generalOrder.4eca56485f65158fa294.jpg",
+    "static/media/bioMedical.jpg": "/bluvade-company/static/media/bioMedical.76669f204e4e138f0e9b.jpg",
+    "static/media/laptop.jpg": "/bluvade-company/static/media/laptop.a6d1e3379ed5ca13fa94.jpg",
+    "static/media/joint.jpg": "/bluvade-company/static/media/joint.0f239d32ee54b1770605.jpg",
+    "static/media/plan.jpg": "/bluvade-company/static/media/plan.f17d8765036d40d8b79b.jpg",
+    "static/media/dell.jpg": "/bluvade-company/static/media/dell.162e4f028505437651dd.jpg",
+    "static/media/govt.jpg": "/bluvade-company/static/media/govt.3d832a92cd4672e96f14.jpg",
+    "static/media/contact.jpg": "/bluvade-company/static/media/contact.02ccd89502144f1c8c78.jpg",
+    "static/media/hp.jpg": "/bluvade-company/static/media/hp.495dd2f5bc06cda00a7d.jpg",
+    "static/media/careerPage.jpg": "/bluvade-company/static/media/careerPage.850c46195b1340898809.jpg",
+    "static/media/asus.jpg": "/bluvade-company/static/media/asus.f2a31605b9c8af70da3b.jpg",
+    "static/media/ngo.jpg": "/bluvade-company/static/media/ngo.2c0558cfa3eca4d56114.jpg",
+    "static/media/sony.jpg": "/bluvade-company/static/media/sony.e6529bfed1cb161398bc.jpg",
+    "static/media/shop.jpg": "/bluvade-company/static/media/shop.4d81f72e7c66e3d98175.jpg",
+    "static/media/banks.jpg": "/bluvade-company/static/media/banks.60f10641966b7fa762d7.jpg",
+    "static/media/microsoft.jpg": "/bluvade-company/static/media/microsoft.1242c116d9068bf587a5.jpg",
+    "static/media/apple.jpg": "/bluvade-company/static/media/apple.fb11cdc4db381669e12f.jpg",
+    "static/media/network.jpg": "/bluvade-company/static/media/network.3308cb8f6a61f4ad3119.jpg",
+    "static/media/electronic.jpg": "/bluvade-company/static/media/electronic.cc8cdd09b17cbba2fead.jpg",
+    "static/media/sideImg1.jpg": "/bluvade-company/static/media/sideImg1.94d4f5801d93392c06b6.jpg",
+    "static/media/power.jpg": "/bluvade-company/static/media/power.6da77556f1af0819fd10.jpg",
+    "static/media/heroimg1.jpg": "/bluvade-company/static/media/heroimg1.894e9086ff2f0b7cf72c.jpg",
+    "index.html": "/bluvade-company/index.html",
+    "main.a696e222.css.map": "/bluvade-company/static/css/main.a696e222.css.map",
+    "main.2a15a6b7.js.map": "/bluvade-company/static/js/main.2a15a6b7.js.map",
+    "488.11fb4e83.chunk.js.map": "/bluvade-company/static/js/488.11fb4e83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a696e222.css",
+    "static/js/main.2a15a6b7.js"
+  ]
+}
