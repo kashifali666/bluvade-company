@@ -2,6 +2,7 @@
   "name": "bluvade",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kashifali666.github.io/bluvade-company",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.3",
@@ -16,6 +17,8 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16"
   }
