@@ -17,7 +17,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-white text-black px-6 py-4 shadow-md">
+    <nav className="bg-white text-black px-6 py-4 shadow-md relative">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="w-[150px] ml-8 flex-shrink-0">
@@ -33,22 +33,21 @@ function Navbar() {
 
         {/* Main Navigation Links */}
         <div
-          className={`${
-            isMenuOpen ? "block" : "hidden"
-          } md:flex items-center justify-between w-full md:w-auto md:space-x-6 absolute top-full left-0 bg-white z-50 p-4 md:static md:flex-row md:p-0`}
+          className={`absolute top-[64px] left-0 w-full bg-white z-50 p-4 shadow-md md:static md:flex md:items-center md:justify-between md:w-auto md:p-0 
+          ${isMenuOpen ? "block" : "hidden"}`}
         >
           {/* Close Button (Mobile) */}
-          <button
-            onClick={toggleMenu}
-            className="absolute top-4 right-4 text-xl text-black md:hidden"
-          >
-            <AiOutlineClose />
-          </button>
+          {isMenuOpen && (
+            <button
+              onClick={toggleMenu}
+              className="absolute top-4 right-4 text-xl text-black md:hidden"
+            ></button>
+          )}
 
           {/* Desktop Navigation & Social Icons */}
-          <div className="hidden md:flex flex-grow justify-between items-center gap-12">
+          <div className="md:flex flex-grow justify-between items-center gap-12">
             {/* Navigation Links */}
-            <ul className="flex space-x-4 whitespace-nowrap">
+            <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 text-center">
               <li>
                 <Link to="/" className="hover:underline font-semibold">
                   Home
@@ -80,7 +79,7 @@ function Navbar() {
             </ul>
 
             {/* Social Icons */}
-            <div className="flex space-x-4">
+            <div className="hidden md:flex space-x-4">
               <a
                 href="https://www.facebook.com"
                 target="_blank"
